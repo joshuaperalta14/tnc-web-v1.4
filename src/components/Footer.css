@@ -1,0 +1,24 @@
+footer {
+    background: transparent;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .footer-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgb(20, 18, 16);
+    background: transparent;
+  }
+  
+  .footer-logo {
+    display: block; /* Change to block */
+    margin: auto; /* Center the logo horizontally */
+    padding: 0;
+    width: 12%;
+    height: 20px;
+    border-radius: 10px;
+  }
+  
