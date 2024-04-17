@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-logo {
+    display: inline-block;
+    margin-left: 22%;
+    margin-top: 0.5%;
+    margin-bottom: 10%;
+    padding: 0;
+    width: 180px;
+    height: 70px;
+}
+
+.login-background {
+    font-family: "Kaisei HarunoUmi", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../assets/blank background.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-wrapper {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgb(80, 77, 77);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(105, 103, 100, 0.932);
+    color: #807d7d;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.login-wrapper h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.login-wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(207, 0, 0, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #ffffff;
+}
+
+.input-box .login-icon {
+    position: absolute;
+    right: 20px;
+    top: 35%;
+    transform: translateY(-50);
+    font-size: 16px;
+}
+
+.login-wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+    color: #ffffff;
+}
+
+
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 4px;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+    color: rgb(6, 29, 240);
+}
+
+.login-wrapper button {
+    width: 60%;
+    height: 45px;
+    background: linear-gradient(to right, #ecae04da, #f86c00e7);
+    border: 2px solid white;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-left: 75px;
+}
+
+.login-wrapper button:hover {
+    background: linear-gradient(to right, #ecae04da, #f86c00e7);
+    color: #000000;
+    transition: 0.3s;
+}
+
+.login-register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 10px; 
+    margin: 0;
+}
+
+.login-register-link p a {
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-register-link p a:hover {
+    color: rgb(6, 29, 240);
+    transition: 0.3s;
+}
+
+.login-register-link h3 a {
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 11px;
+}
+
+.login-register-link h3 a:hover {
+    color: rgb(255, 123, 0);
+    transition: 0.3s;
+}
+
